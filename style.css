@@ -1,0 +1,73 @@
+.same{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    color: white;
+}
+button{
+    position: relative;
+    top:200px;
+    width: 100px;
+    height: 30px;
+    font-size: larger;
+    font-weight: 700;
+    right:150px
+}
+.right{
+    background-image: url("o_modified.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wrong{
+    background-image: url("download.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 210px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+.one{
+    
+    
+    border-bottom: solid black 2px;
+    border-right: solid black 2px;
+}
+.two{
+    border-bottom: 2px solid black;
+    border-right: solid 2px black;
+}
+.three{
+    border-bottom: solid black 2px;
+    
+}
+.seven{
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+}
+.eight{
+    border-top: solid black 2px;
+    border-right: solid black 2px;
+}
+.nine{
+    border-top: solid black 2px;
+
+}
+.four{
+    
+    border-right: solid black 2px;
+}
+.five{
+    border-right: solid black 2px;
+}
+.six{
+    
+}
